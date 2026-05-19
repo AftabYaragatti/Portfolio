@@ -303,9 +303,11 @@ header .navbar ul li a:hover{
 /* ===== Certificate Button Hover Animation ===== */
 .cert-btn {
   margin-top: 10px;
-  opacity: 0;
+  opacity: 1;
   transform: translateY(10px);
   transition: 0.4s ease-in-out;
+  cursor:pointer;
+  padding : 5px 0px 5px 0px;
 }
 
 .content:hover .cert-btn {
